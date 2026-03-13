@@ -1,0 +1,66 @@
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+
+# Intermediate documents:
+*.dvi
+*.xdv
+*.ps
+*.pdf
+*.glg
+*.glo
+*.gls
+*.blg
+*.bbl
+*.idx
+*.ind
+*.ilg
+*.synctex.gz
+*.fdb_latexmk
+*.snm
+*.nav
+*.vrb
+*.tps
+*.pyg
+*.mw
+
+# Files from other packages:
+*.lol
+*.los
+*.sav
+*.bcf
+*.xml
+*.run.xml
+*.spl
+*.vrb
+*.wrt
+*.ent
+*.hs
+*.pstex
+*.pstex_t
+
+# Backup and editor files:
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Uncomment to ignore glossary-extra style files
+# *.ist
+
+# Uncomment to ignore all image files (if you manage them in another repo or way)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
