@@ -1,4 +1,6 @@
 {
+  "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+  "latex-workshop.formatting.latex": "latexindent",
   //   "latex-utilities.formattedPaste.image.template": "\\includegraphics[width=\\textwidth]{${imageFilePath}}",
   // "pasteImage.insertPattern": "\\begin{figure}[ht]\n\\centering\n\\includegraphics[width=0.8\\textwidth]{${imageFilePath}}\n\\caption{}\n\\end{figure}",
   "pasteImage.insertPattern": "\\begin{figure}[H]\n\\centering\n\\begin{tikzpicture}\n\\node[draw=none, rounded corners=\\addcorner, inner sep=0pt, clip] (image) {\n\\includegraphics[width=0.8\\textwidth]{${imageFilePath}}\n};\n\\draw[gray, line width=1pt, rounded corners=\\addcorner](image.south west) rectangle (image.north east);\n\\end{tikzpicture}\n\\caption{}\n\\end{figure}",
