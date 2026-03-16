@@ -16,6 +16,8 @@
 \usepackage{tikz}
 % Image placement
 \usepackage{float}
+% Custom list settings
+\usepackage{enumitem}
 
 
 % Set the title, author, and date
@@ -50,15 +52,18 @@
 % Specify your system's Thai font
 \setmainfont{TH Sarabun New}
 
+% Customize the enumerate environment to use section numbers as prefixes
+\setenumerate[1]{label=\thesection.\arabic*.}
+\setenumerate[2]{label*=\arabic*.}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % The document begins here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \maketitle
-% The abstract provides a brief summary of the document's content.
-\begin{abstract}
-  This is a sample LaTeX document. It includes an abstract, sections, an equation, and a figure placeholder. You can replace the content with your own text and images as needed.
-\end{abstract}
+\tableofcontents
+\listoffigures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{การเข้าถึงแอปพลิเคชัน}
 
@@ -66,21 +71,10 @@
 \begin{enumerate}
   \item เข้าไปที่เว็บไซต์ \url{https://eef.iecmu.com} ใส่ชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ
         \rimg{images/2026-03-17-06-24-49.png}{หน้าจอเข้าสู่ระบบของแอปพลิเคชัน}
-  \item
+  \item หลังจากเข้าสู่ระบบสำเร็จ คุณจะเห็นหน้าหลักของแอปพลิเคชัน ซึ่งมีเมนูต่าง ๆ ให้เลือกใช้งาน
 
 
-  \item Second step
-  \item Third step
 \end{enumerate}
-
-
-\section*{References}
-\begin{thebibliography}{9}
-  \bibitem{lamport94}
-  Leslie Lamport,
-  \emph{LaTeX: A Document Preparation System},
-  Addison Wesley, 2nd edition, 1994.
-\end{thebibliography}
 
 \end{document}
 
