@@ -1,6 +1,6 @@
 # VSCode Extension
 
-- Install TexLive
+- Install `TexLive`
 - VSCode Extension:
   - Paste Image - mushan
   - LaTex Workshop - James Yu
