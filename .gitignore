@@ -16,7 +16,7 @@
 *.dvi
 *.xdv
 *.ps
-*.pdf
+# *.pdf
 *.glg
 *.glo
 *.gls
